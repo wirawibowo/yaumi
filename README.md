@@ -96,6 +96,3 @@ Atur di `app/build.gradle.kts`:
 - `versionCode`
 - `versionName`
 
-## 📌 Dokumen parity
-
-Gunakan `PARITY_CHECKLIST.md` sebagai acuan validasi tahap parity.
