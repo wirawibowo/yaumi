@@ -1,2 +1,0 @@
-# yaumi
-Aplikasi Harian Muslim
