@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.util.Log
+import androidx.annotation.VisibleForTesting
 import com.yaumi.app.azan.audio.AzanAudioPlayer
 import com.yaumi.app.azan.data.AzanRepository
 import com.yaumi.app.azan.data.AzanSettingsStore
@@ -180,7 +181,8 @@ object AzanAlarmScheduler {
         }
     }
 
-    private fun computeEvents(
+    @VisibleForTesting
+    internal fun computeEvents(
         now: LocalDateTime,
         timings: Map<String, String>,
         reminderEnabled: Boolean,
